@@ -9,7 +9,8 @@ module.exports = {
         secret: 'Wmfd2893gb7',
         gameVersion: '21',
         binaryVersion: '35',
-        gdbrowser: '1'
+        gdbrowser: '1',
+        endpoint: "https://catstersgdps.kontroll.dev/",
     },
 
     rateLimiting: true, // Enables rate limiting to avoid api spam, feel free to disable for private use.
