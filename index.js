@@ -387,3 +387,5 @@ process.on('uncaughtException', (e) => { console.log(e) });
 process.on('unhandledRejection', (e, p) => { console.log(e) });
 
 app.listen(app.config.port, () => console.log(`Site online! (port ${app.config.port})`))
+
+module.exports = app
